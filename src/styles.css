@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+#nav-settings {
+  color: white;
+  background-color: #120e53;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../src/code.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  border-radius: 7%;
+}
+
+
+
+.nav-li:hover {
+  border: 2px solid white;
+  color: black;
+}
+
+.text {
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 22px;
+  text-align: center;
+}
+
+.text-parallax {
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.flex-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-options {
+  width: auto;
+}
+
+.separador {
+  background-color: #120e53;
+  height: 10em;
+}
+
+footer {
+  background-color: #120e53;
+  height: 5em;
+}
+
+.img {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 50% 90% 50% 90%;
+}
+
+.grid-tech {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+.icons-tech {
+  font-size: 150px;
+}
+
+.icons-contact {
+  font-size: 150px;
+  padding: 20px;
+  color: #202427;
+}
+
+li:hover {
+  border: 3px solid #120e53;
+}
+
+.flex-options-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 100vh;
+}

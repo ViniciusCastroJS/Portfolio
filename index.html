@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/152ba53354.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-3" id="nav-settings">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item nav-li">
+            <a class="nav-link active" href="#">Página Inicial</a>
+          </li>
+          <li class="nav-item nav-li">
+            <a class="nav-link active" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item nav-li">
+            <a class="nav-link active" href="#knowledges">Conhecimentos</a>
+          </li>
+          <li class="nav-item nav-li">
+            <a class="nav-link active" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- PARALLAX IMAGE-->
+    <div class="parallax">
+      <p class="text-parallax">Bem-vindo!</p>
+    </div>
+
+    <!--SOBRE MIM-->
+    <div class="container-fluid flex-options section-options">
+      <div class="row flex-options" id="about">
+        <div class="col">
+          <img
+            src="./src/Vini_perfil.jpg"
+            class="img"
+            alt="picture"
+            width="200px"
+          />
+        </div>
+      </div>
+
+      <div class="row pt-1 pb-1 mt-1 flex-options">
+        <div class="col display-3">Sobre mim</div>
+      </div>
+
+      <div class="row pb-4 mb-4 justify-content-center">
+        <div class="col-6 text">
+          <p>
+            Olá! Me chamo Vinicius Castro e sou programador Full Stack ( que
+            atua tanto na implementação da lógica do serviço quanto na
+            implementação que interage com o cliente). Tenho diversos projetos
+            feitos, seja eles em parceria com outros programadores ou
+            programados somente por mim, em diversas linguagens. Além disso,
+            tenho como formação, diversos cursos na área, como o Go Stack
+            Bootcamp, assim como o curso técnico em Informática para internet
+            ministrado no Senac Tech.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BARRA PRA SEPARAR-->
+    <div class="container-fluid separador"></div>
+
+    <!-- Conhecimentos -->
+    <div class="container-fluid flex-options section-options" id="knowledges">
+      <div class="row pt-4 pb-1 mt-1">
+        <div class="col display-3 pb-4 mb-4">Conhecimentos:</div>
+      </div>
+
+      <div class="row pb-4 mb-4">
+        <div class="col-6 text">
+          <ul class="grid-tech">
+            <li class="li-tech">
+              <i class="fab fa-react icons-tech"></i>
+              <p>React JS & Redux</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-html5 icons-tech"></i>
+              <p>HTML 5</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-css3-alt icons-tech"></i>
+              <p>CSS 3 & bootstrap</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-sass icons-tech"></i>
+              <p>SASS</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-js-square icons-tech"></i>
+              <p>Javascript & Jquery</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-node-js icons-tech"></i>
+              <p>Node JS</p>
+            </li>
+            <li class="li-tech">
+              <i class="fab fa-angular icons-tech li-tech"></i>
+              <p>Angular 9 & RxJS</p>
+            </li>
+            <li class="flex-options li-tech">
+              <img
+                class="p-3"
+                src="./src/asp.net_icon.png"
+                width="160px"
+                height="142px"
+              />
+              <p>ASP. NET MVC</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BARRA PRA SEPARAR-->
+    <div class="container-fluid separador"></div>
+
+    <!-- Contatos-->
+    <div class="container-fluid contact flex-options" id="contact">
+      <div class="row">
+        <p class="display-3 mb-4 pb-4">Contato:</p>
+      </div>
+      <div class="row flex-options-contact">
+        <div class="col-md-4 col-sm-12 flex-options">
+          <a
+            href="https://www.linkedin.com/in/vin%C3%ADcius-souza-de-castro-570958186/"
+          >
+            <i class="fab fa-linkedin icons-contact"></i>
+          </a>
+          <p class="pt-2">Linkedin</p>
+        </div>
+        <div class="col-md-4 col-sm-12 flex-options">
+          <a href="https://github.com/ViniciusCastroJS">
+            <i class="fab fa-github icons-contact"></i>
+          </a>
+          <p class="pt-2">GitHub</p>
+        </div>
+        <div class="col-md-4 col-sm-12 flex-options">
+          <a href="mailto:contatoviniciussc@gmail.com">
+            <i class="fas fa-envelope icons-contact"></i>
+          </a>
+          <p class="pt-2">E-mail</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BARRA PRA SEPARAR-->
+    <footer class="container-fluid"></footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
