@@ -8,6 +8,12 @@ body {
 #nav-settings {
   color: white;
   background-color: #120e53;
+  height: 100px;
+  max-height: 100px;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 .nav-link {
@@ -36,9 +42,14 @@ li {
   text-decoration: none;
   list-style: none;
   border-radius: 7%;
+  display: flex;
+  place-content: center;
 }
 
-
+.nav-li {
+  height: 50px;
+  max-height: 50px;
+}
 
 .nav-li:hover {
   border: 2px solid white;
@@ -53,7 +64,7 @@ li {
 }
 
 .text-parallax {
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.6;
   font-size: 100px;
   color: white;
