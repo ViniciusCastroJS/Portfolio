@@ -43,12 +43,14 @@ li {
   list-style: none;
   border-radius: 7%;
   display: flex;
-  place-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-li {
   height: 50px;
   max-height: 50px;
+  padding-right:10px;
 }
 
 .nav-li:hover {
