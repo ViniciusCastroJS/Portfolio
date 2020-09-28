@@ -47,6 +47,12 @@ li {
   justify-content: center;
 }
 
+li:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav-li {
   height: 50px;
   max-height: 50px;
